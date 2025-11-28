@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Jumping Spiders Teach Us About Color</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/spider-vision.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <p class="eyebrow">Scrollytelling Blueprint</p>
+          <h1>What Jumping Spiders Teach Us About Color</h1>
+          <p class="lede">
+            A narrative outline for building a rich, interactive web experience
+            that blends 3D storytelling with evolutionary biology, optics, and
+            a healthy dose of curiosity.
+          </p>
+          <div class="hero__meta">
+            <span>Frameworks: React or Svelte · Three.js · React Three Fiber · GSAP</span>
+            <span>Assets: Blender models · GLTF/GLB exports · Custom shaders</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="section">
+          <div class="section__label">Section 1 · The Yellow Illusion</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>You Are Not Looking at a Yellow Ball</h2>
+              <p>
+                Start with a bright yellow sphere floating in darkness. On scroll,
+                dive through the surface until the color reveals its secrets: a
+                lattice of red and green sub-pixels faking yellow for the human
+                eye. The hook shows how trichromats perceive a color that does not
+                truly exist on screen.
+              </p>
+              <p class="note">
+                Diagram: schematics that show red + green stimuli creating a
+                perceived yellow signal.
+              </p>
+            </div>
+            <div class="callout">Zoom-driven transition from macro to sub-pixel grid.</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__label">Section 2 · The Fly Tiger</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>Meet the Jumping Spider</h2>
+              <p>
+                Introduce the protagonist with a responsive 3D model that tracks
+                the pointer like a curious hunter. Secondary eyes offer a
+                monochrome motion map while the principal eyes promise razor-sharp
+                detail.
+              </p>
+            </div>
+            <div class="callout">Mouse-tracking head movement on a high-quality GLTF model.</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__label">Section 3 · The Galilean Telescope</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>Telescopes in the Head</h2>
+              <p>
+                Shift to an X-ray view: the cephalothorax fades so the long eye
+                tubes become visible. Explain how a large outer lens and a second
+                lens at the tube base create a Galilean telescope with a narrow
+                field but crisp resolution.
+              </p>
+              <p class="note">
+                Diagram: side-by-side comparison of a Galilean telescope and the
+                jumping spider eye tube anatomy.
+              </p>
+            </div>
+            <div class="callout">Opacity shift reveals internal eye-tube geometry.</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__label">Section 4 · The Evolution of Red</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>Reinventing the Wheel</h2>
+              <p>
+                Showcase an evolutionary tree that lights up where red vision
+                evolved independently. Describe gene duplication and red-filter
+                hacks that convert green-sensitive cells into red detectors.
+              </p>
+            </div>
+            <div class="callout">Interactive phylogeny with animated highlights for red-vision branches.</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__label">Section 5 · The Termite Experiment</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>The Taste of Color</h2>
+              <p>
+                Create a mini-game with two termites—one painted red and bitter,
+                one gray and tasty. Toggling a training switch teaches color-savvy
+                spiders to avoid red, showing the survival payoff of color vision.
+              </p>
+            </div>
+            <div class="callout">Toggle training state to flip bitter/tasty cues in the UI.</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__label">Section 6 · The Depth Illusion</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>The Looming Effect</h2>
+              <p>
+                Visualize a tiered retina with four layers. Green focuses sharply;
+                red overshoots and blurs, hinting at chromatic aberration. A GLSL
+                shader can split channels to mimic defocus, turning color
+                incapacity into a depth cue for *Mexigonus* courtship.
+              </p>
+              <p class="note">
+                Diagram: chromatic aberration ray paths and blurred red focus
+                behind the retina.
+              </p>
+            </div>
+            <div class="callout">Shader-driven RGB separation to simulate defocus depth cues.</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__label">Section 7 · Conclusion</div>
+          <div class="section__body">
+            <div class="section__text">
+              <h2>The Evolutionary Dance</h2>
+              <p>
+                Return to the yellow sphere, now filtered through "spider vision".
+                Close with the reminder that color is a negotiation between light,
+                biology, and perception—a dance that jumping spiders perform with
+                extraordinary choreography.
+              </p>
+            </div>
+            <div class="callout">Final morph from yellow ball to spider eye to underline the theme.</div>
+          </div>
+        </section>
+
+        <section class="section action-plan">
+          <div class="section__label">Phase Plan</div>
+          <div class="grid">
+            <div class="card">
+              <h3>Phase 1 · Assets</h3>
+              <ul>
+                <li>Source or model a low-poly jumping spider; isolate the head mesh.</li>
+                <li>Create red and gray termite textures for the mini-game.</li>
+                <li>Export optimized GLTF/GLB files from Blender.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Phase 2 · Hello World</h3>
+              <ul>
+                <li>Spin up Vite + React or Svelte.</li>
+                <li>Install <code>three</code>, <code>@react-three/fiber</code>, and <code>@react-three/drei</code>.</li>
+                <li>Render a test cube and confirm orbit controls.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Phase 3 · Scroll Logic</h3>
+              <ul>
+                <li>Pin the 3D canvas behind content; drive camera transforms with GSAP ScrollTrigger.</li>
+                <li>Map section entry to spider pose, opacity, and material changes.</li>
+                <li>Implement mouse-tracking on the principal eyes.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Phase 4 · Optics Demo</h3>
+              <ul>
+                <li>Add a GLSL shader to offset RGB channels for chromatic aberration.</li>
+                <li>Provide adjustable sliders for separation amount and focus depth.</li>
+                <li>Overlay diagram callouts for context.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Phase 5 · Polish</h3>
+              <ul>
+                <li>Apply typography and section fades to match scrollytelling mood.</li>
+                <li>Inline citations or timestamps for science references.</li>
+                <li>Optimize assets and lazy-load heavy models.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          This page is a planning scaffold for an interactive story about jumping
+          spider vision, combining 3D rendering, shaders, and scroll-based
+          animation.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
